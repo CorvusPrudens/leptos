@@ -77,6 +77,7 @@ aws_secret_access_key = rbWHpaI/lJnXdLteWHNnTVZpQztMB2+pdbb+KVgr
 Serving static files from a lambda function is not the best approach.
 Ideally, you should upload your files to a CDN and configure
 your project to serve them from that location.
+AWS has an article on deploying [React with SSR](https://aws.amazon.com/blogs/compute/building-server-side-rendering-for-react-in-aws-lambda/).
 
 It's also pretty easy to set up edge compute with Lambda@Edge,
 which should improve latency.
